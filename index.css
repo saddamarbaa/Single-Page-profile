@@ -1,0 +1,97 @@
+ /* import Google font */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+ /* main Rule */
+ 
+ * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Raleway', sans-serif;
+     font-family: sans-serif;
+     background-image: url(blue-snow.png);
+ }
+ /* Style the main content bar */
+ 
+ .content {
+     max-width: 600px;
+     margin: auto;
+     padding-top: 20px;
+     line-height: 2em;
+     font-weight: 900px;
+     font-size: 20px;
+     padding-bottom: 70px;
+ }
+ /* Style the img */
+ 
+ img {
+     width: 500px;
+     height: 500px;
+ }
+ /* img on hover */
+ 
+ img:hover {
+     border: 1px solid #777;
+ }
+ /* Style the top navigation bar */
+ 
+ .topnav {
+     width: 100%;
+     overflow: hidden;
+     font-size: 1.2em;
+ }
+ /* Style the topnav links */
+ 
+ .topnav ul {
+     list-style-type: none;
+     overflow: hidden;
+     background-color: #333;
+ }
+ 
+ .topnav ul li {
+     display: inline-block;
+     margin-right: 20px;
+ }
+ 
+ .topnav ul li:last-child {
+     margin-right: 0px;
+ }
+ 
+ .topnav ul li a {
+     text-align: center;
+     text-decoration: none;
+     color: #f2f2f2;
+     display: inline-block;
+     padding: 25px;
+ }
+ /* Change color on hover */
+ 
+ li a:hover:not(.active) {
+     background-color: #ddd;
+     color: black;
+ }
+ /* Style the topnav links(active) */
+ 
+ .topnav .active {
+     background-color: #4CAF50;
+ }
+ /* Change color for active link on hover */
+ 
+ .topnav .active:hover {
+     background-color: red;
+ }
+ 
+ .topnav ul .news {
+     float: right;
+ }
+ /* Style the footer */
+ 
+ footer .copright {
+     background-color: #333;
+     padding: 20px;
+     text-align: center;
+     color: white
+ }

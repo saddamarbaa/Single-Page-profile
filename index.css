@@ -1,7 +1,9 @@
  /* import Google font */
  
  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
- /* main Rule */
+ /* ==========================================
+    main Rule
+   ========================================== */
  
  * {
      padding: 0px;
@@ -14,7 +16,9 @@
      font-family: sans-serif;
      background-image: url(blue-snow.png);
  }
- /* Style the main content bar */
+ /* ==========================================
+    Style the main content bar
+   ========================================== */
  
  .content {
      max-width: 600px;
@@ -25,7 +29,9 @@
      font-size: 20px;
      padding-bottom: 70px;
  }
- /* Style the img */
+ /* ==========================================
+    Style the img
+   ========================================== */
  
  img {
      width: 500px;
@@ -36,7 +42,9 @@
  img:hover {
      border: 1px solid #777;
  }
- /* Style the top navigation bar */
+ /* ==========================================
+   Style the top navigation bar
+   ========================================== */
  
  .topnav {
      width: 100%;
@@ -87,7 +95,9 @@
  .topnav ul .news {
      float: right;
  }
- /* Style the footer */
+ /* ==========================================
+   Style the footer
+   ========================================== */
  
  footer .copright {
      background-color: #333;
@@ -95,3 +105,19 @@
      text-align: center;
      color: white
  }
+ /* ==========================================
+    Start ABOUT page 
+   ========================================== */
+ 
+ .content .about-image img {
+     padding: 3px;
+     border: 1px solid;
+     background: #fff;
+     box-shadow: 2px 20px 20px #4e4e4e;
+     border-radius: 50%;
+ }
+ 
+ .content .about-p {
+     margin-top: 20px;
+ }
+ /* =============== END ABOUT page =================== */
